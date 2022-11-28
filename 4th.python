@@ -1,0 +1,5 @@
+n=int(input())
+if(n>100):
+    print('grater than 100')
+else:
+    print('less than 100')

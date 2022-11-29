@@ -1,0 +1,10 @@
+sno=input("number ")
+name=input("name")
+group=input("group")
+s1=int(input("english marks "))
+s2=int(input("computer marks "))
+s3=int(input("maths marks "))
+if(s1>35 and s2>35 and s3>35):
+    print("pass")
+else:
+    print("fail")

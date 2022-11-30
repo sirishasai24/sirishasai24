@@ -1,0 +1,16 @@
+billno=int(input("enter electricituy bill number :"))
+cname=input("enter customer name : ")
+units=int(input("total number of units: "))
+if units>0 and units<50:
+    amount=units*5.40
+elif units>51 and units<100:
+    amount=units*7.65
+elif units>101 and units<300:
+    amount=9.05
+elif(units>301 and units<500 ):
+    amount=units*9.60
+elif units>500:
+    amount=units*10.15
+print("customer electricity number: ",billno)
+print("customer number",cname)
+print("electricity bill is : ",amount)

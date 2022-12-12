@@ -1,0 +1,9 @@
+n=int(input())
+list=[]
+for i in range(1,n+1):
+    h=(input())
+    list.append(h)
+print(list)
+print("In index 0 there is",list[0])
+print("In index 2 there is",list[2])
+print("In index 4 there is",list[4])

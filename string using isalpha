@@ -1,0 +1,8 @@
+str=input("enter a string")
+n=len(str)
+for i in range(0,n):
+    if str[i].isalpha()==1:
+        print(str[i],"is an alphabet")
+else:
+    print(str[i],"is not alphabet")
+

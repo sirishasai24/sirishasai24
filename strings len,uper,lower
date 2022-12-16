@@ -1,0 +1,10 @@
+str1=input("enter any string")
+length=len(str1)
+print(length )
+str2=input("enter sting in small letters")
+print(str2.upper())
+str3=input("enter string in capital letters")
+print(str3.lower())
+str4=input("enter string")
+print(str3[0].upper(),str4[1].lower())
+

@@ -1,0 +1,9 @@
+#assignment-1 given number is palindrome or not
+n=input('enter given number')
+reverse=n[::-1]
+if(n==reverse):
+    print("it is palindrome")
+else:
+    print("it is not palindrome")
+    
+

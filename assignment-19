@@ -1,0 +1,9 @@
+#assignment-19
+#print square root of the given number
+n=int(input())
+result=n**0.5
+if result>10:
+    print('hello')
+else:
+    print('hi')
+

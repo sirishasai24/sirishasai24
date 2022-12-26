@@ -1,0 +1,16 @@
+#assignment-9
+#print sum of n fibonacci series
+n=int(input())
+a=-1
+b=1
+s=0
+for i in range(1,n+1):
+    c=a+b
+    s=s+c
+    a=b
+    b=c
+    print(s)
+
+
+        
+

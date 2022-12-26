@@ -1,0 +1,6 @@
+#assignment4
+#print maximum minimum from the given digit
+n=int(input())
+l=list(map(int,input().split()))
+print(max(l))
+print(mini(l))

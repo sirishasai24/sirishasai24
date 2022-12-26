@@ -1,0 +1,6 @@
+#assignment-16
+#print difference between maximum and minimum number from the given list
+n=int(input())
+l=list(map(int,input().split()))
+print(max(l)-mini(l))
+

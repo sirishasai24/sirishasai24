@@ -1,0 +1,14 @@
+#assignment-13
+#print given list is unique or duplicate
+n=int(input())
+l=list(map(int,input().split()))
+c=0
+for i in range(0,n,1):
+    for j in range(i+1,n):
+        if l[i]==l[j]:
+            c=c+1
+if c==0:
+    print("list is unique")
+else:
+        print("list is duplicate")
+

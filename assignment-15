@@ -1,0 +1,8 @@
+#assignment-15
+#print unique single number for the duplicate list?
+n=int(input())
+l=list(map(int,input().split()))
+for i in l:
+    if l.count(i)==1:
+        print(i)
+

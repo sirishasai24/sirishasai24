@@ -1,0 +1,15 @@
+def valid(s):
+          if '[]' in s:
+             s=s.replace('[]','')
+          elif '()' in s:
+             s=s.replace ('()','')
+          elif '{}' in s:
+             s=s.replace('{}','')
+          else:
+            return not s
+s=input()
+if valid(s):
+   print('yes')
+else:
+    print('no')
+

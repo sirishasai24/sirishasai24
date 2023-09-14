@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>html lists</title>
+<head>
+<body>
+<h1>unordered list<h1>
+<ul>
+<li>mpcs</li>
+<li>mccs</li>
+<li>mscs</li>
+</ul>
+<ul type="circle">
+<li>mpcs</li>
+<li>mccs</li>
+<li>mscs</li>
+</ul>
+<ul type="square">
+<li>mpcs</li>
+<li>mccs</li>
+<li>mscs</li>
+</ul>
+<h1>ordered list</h1>
+<ol>
+<li>mpcs</li>
+<li>mccs</li>
+<li>mscs</li>
+</ol>
+<ol type="A">
+<li>mpcs</li>
+<li>mccs</li>
+<li>mscs</li>
+</ol>
+<ol type="a">
+<li>mpcs</li>
+<li>mccs</li>
+<li>mscs</li>
+</ol>
+<ol type="I">
+<li>mpcs</li>
+<li>mccs</li>
+<li>mscs</li>
+</ol>
+<ol type="i">
+<li>mpcs</li>
+<li>mccs</li>
+<li>mscs</li>
+</ol>
+<body>
+<html>
+
